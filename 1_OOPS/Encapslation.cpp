@@ -37,7 +37,7 @@ public:
         currentGear = 0;
         tyreCompany = "MRF";
     }
-
+//gettter
     int getSpeed() {
         return currentSpeed;
     }
@@ -45,7 +45,7 @@ public:
     string getTyreCompany() {
         return tyreCompany;
     }
-
+//setter
     void setTyreCompany(string tyreCompany) {
         this->tyreCompany = tyreCompany;
     }
