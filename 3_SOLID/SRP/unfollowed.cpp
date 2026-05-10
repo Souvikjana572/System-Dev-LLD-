@@ -1,3 +1,4 @@
+//This code demonstrates a violation of the Single Responsibility Principle (SRP) in C++. The ShoppingCart class is handling multiple responsibilities: managing products, calculating totals, printing invoices, and saving to a database. This makes the class more complex and harder to maintain, as changes to one responsibility may affect the others. In contrast, the Followed.cpp file adheres to SRP by separating these responsibilities into different classes.      
 #include <iostream>
 #include <vector>
 

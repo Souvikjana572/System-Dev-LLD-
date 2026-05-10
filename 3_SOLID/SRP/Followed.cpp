@@ -1,3 +1,5 @@
+// This code demonstrates the Single Responsibility Principle (SRP) in C++.
+// Each class has only one reason to change, adhering to SRP.
 #include <iostream>
 #include <vector>
 
